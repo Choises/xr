@@ -1,0 +1,195 @@
+<html lang="gr"><head><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+<title>𝕸𝖚𝖘ἱ𝖈💕𝕮𝖍𝖔ἱ𝖈𝖊𝖘</title>
+<meta name="description" content="𝕮𝖍𝖔ἱ𝖈𝖊𝖘">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta property="og:title" content="𝕮𝖍𝖔ἱ𝖈𝖊𝖘">
+<meta property="og:description" content="𝕮𝖍𝖔ἱ𝖈𝖊𝖘">
+<link rel="icon" type="image/png" href="https://xatimg.com/image/ae4uw9xLs4kg.png" sizes="48x48">
+    <style type="text/css">
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center; 
+            padding: 20px; 
+           background: #000  url('https://i.ibb.co/v41wj4K9/9.png') center/cover no-repeat;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .bg-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 255, 0, 0.3) 0%, rgba(255, 255, 0, 0.2) 100%);
+            z-index: 1;
+            pointer-events: none;
+            transition: 1.5s ease-in-out;
+        }
+
+        .theme-nav {
+            width: 100%;
+            max-width: 728px;
+            display: flex;
+            justify-content: space-between;
+            z-index: 9999;
+            padding: 0 5px;
+            margin-bottom: 20px;
+        }
+
+        .theme-nav span {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            cursor: pointer;
+            background: radial-gradient(circle at 35% 35%, #fff 0%, var(--c1) 40%, var(--c2) 100%);
+            border: 1px solid rgba(255,255,255,0.5);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.8), inset 0 -2px 5px rgba(0,0,0,0.5);
+            transition: 0.3s;
+            flex-shrink: 0;
+        }
+
+        /**/
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: calc(100vh - 200px);
+            z-index: 10;
+            padding: 0 60px; /* Αυξήθηκε ελαφρώς για να χωράνε τα κάθετα κείμενα */
+        }
+
+        /* */
+        .dj-box {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            height: 100%;
+        }
+        
+        .dj-box img { 
+            width: 100%;
+            height: auto;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.8));
+            transform: scaleY(1.15); 
+            animation: floatAnim 4s ease-in-out infinite;
+            z-index: 20;
+        }
+
+        @keyframes floatAnim { 
+            0%, 100% { transform: scaleY(1.15) translateY(0); } 
+            50% { transform: scaleY(1.15) translateY(-10px); } 
+        }
+
+        /*  */
+        .v-label {
+            position: absolute;
+            font-size: 3.2rem;
+            white-space: nowrap;
+            z-index: 30;
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: -2px;
+            top: 50%;
+            text-shadow: 0 4px 15px rgba(0,0,0,1);
+        }
+
+        /* */
+        .left-side .v-label { 
+            transform: translateY(-50%) rotate(-90deg); 
+            left: -100px; /*  */
+        }
+
+        /* */
+        .right-side .v-label { 
+            transform: translateY(-50%) rotate(90deg); 
+            right: -100px; /* */
+        }
+
+        .rainbow {
+            background: linear-gradient(to right, #FF0000, #FF00FF, #0000FF, #00FFFF, #00FF00, #FFFF00, #FF0000);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow-anim 4s linear infinite;
+        }
+        @keyframes rainbow-anim { to { background-position: 200% center; } }
+
+        .footer-text {
+            width: 100%;
+            text-align: center;
+            font-size: 2.3rem;
+            font-weight: 900;
+            text-shadow: 0 8px 30px rgba(0,0,0,1);
+            margin-top: 20px;
+            z-index: 10;
+        }
+
+        /*  */
+        @media (max-width: 1200px) { body { zoom: 0.85; } }
+        @media (max-width: 1024px) { body { zoom: 0.75; } .main-container { padding: 0 40px; } }
+        @media (max-width: 768px)  { body { zoom: 0.55; } .main-container { padding: 0 20px; } }
+        @media (max-width: 480px)  { body { zoom: 0.40; } }
+    </style>
+</head>
+<body oncontextmenu="return false;" onselectstart="return false;">
+
+    <div class="bg-overlay" id="overlay" style="background: linear-gradient(rgba(255, 160, 122, 0.3) 0%, rgba(80, 30, 30, 0.7) 100%);"></div>
+
+    <!-- Κουμπιά Θεμάτων -->
+    <div class="theme-nav">
+        <span style="--c1:#00ff00; --c2:#004400;" onclick="applyTheme('rgba(0,255,0,0.3)','rgba(0,50,0,0.7)')"></span> 
+        <span style="--c1:#0000ff; --c2:#000033;" onclick="applyTheme('rgba(0,0,255,0.3)','rgba(0,0,50,0.7)')"></span> 
+        <span style="--c1:#ff0000; --c2:#440000;" onclick="applyTheme('rgba(255,0,0,0.3)','rgba(50,0,0,0.7)')"></span> 
+        <span style="--c1:#00ffff; --c2:#004444;" onclick="applyTheme('rgba(0,255,255,0.3)','rgba(0,50,50,0.7)')"></span> 
+        <span style="--c1:#ff00ff; --c2:#440044;" onclick="applyTheme('rgba(255,0,255,0.3)','rgba(50,0,50,0.7)')"></span> 
+        <span style="--c1:#ffff00; --c2:#444400;" onclick="applyTheme('rgba(255,255,0,0.3)','rgba(50,50,0,0.7)')"></span>
+        <span style="--c1:#ffffff; --c2:#333333;" onclick="applyTheme('rgba(255,255,255,0.3)','rgba(50,50,50,0.4)')"></span>
+        <span style="--c1:#ff8800; --c2:#442200;" onclick="applyTheme('rgba(255,136,0,0.3)','rgba(100,50,0,0.7)')"></span>
+        <span style="--c1:#8800ff; --c2:#220044;" onclick="applyTheme('rgba(136,0,255,0.3)','rgba(50,0,100,0.7)')"></span>
+        <span style="--c1:#00ff88; --c2:#004422;" onclick="applyTheme('rgba(0,255,136,0.3)','rgba(0,100,50,0.7)')"></span>
+        <span style="--c1:#4b0082; --c2:#1a0033;" onclick="applyTheme('rgba(75,0,130,0.3)','rgba(0,0,0,0.8)')"></span>
+        <span style="--c1:#adff2f; --c2:#223300;" onclick="applyTheme('rgba(173,255,47,0.3)','rgba(50,70,0,0.7)')"></span>
+        <span style="--c1:#ffa07a; --c2:#441111;" onclick="applyTheme('rgba(255,160,122,0.3)','rgba(80,30,30,0.7)')"></span>
+        <span style="--c1:#7fffd4; --c2:#003322;" onclick="applyTheme('rgba(127,255,212,0.3)','rgba(30,80,60,0.7)')"></span>
+        <span style="--c1:#ffd700; --c2:#332200;" onclick="applyTheme('rgba(255,215,0,0.3)','rgba(0,0,0,0.8)')"></span>
+    </div>
+
+    <!--  -->
+    <div class="main-container">
+        
+        <!--  -->
+        <div class="dj-box left-side">
+            <div class="v-label rainbow">Choices Music</div>
+            <img src="https://xatimg.com/image/yLoBhweGFPJf.png" alt="DJ 1">
+        </div>  
+
+        <!---->
+        <div class="dj-box right-side">
+            <div class="v-label rainbow">Choices Music</div>
+            <img src="https://xatimg.com/image/V086nyHEa3Ix.png" alt="DJ 2">
+        </div>
+
+    </div>
+
+    <!--  -->
+    <div class="footer-text rainbow">All Is Choices...</div>
+
+    <script>
+        function applyTheme(topColor, bottomColor) {
+            const bg = document.getElementById('overlay');
+            bg.style.background = `linear-gradient(to bottom, ${topColor} 0%, ${bottomColor} 100%)`;
+        }
+        document.oncontextmenu = function(){ alert("©hoices"); return false; };
+    </script>
+</body></html>
