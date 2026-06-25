@@ -205,5 +205,42 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
             bg.style.background = `linear-gradient(to bottom, ${topColor} 0%, ${bottomColor} 100%)`;
         }
         document.oncontextmenu = function(){ alert("©hoices"); return false; };
+    </script><script>
+        // 1.  ()
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+        // 2.  F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+C, Ctrl+S
+        document.addEventListener('keydown', function(e) {
+            //  F12
+            if (e.keyCode === 123) {
+                e.preventDefault();
+                return false;
+            }
+            //  Ctrl+Shift+I ()
+            if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+                e.preventDefault();
+                return false;
+            }
+            //  Ctrl+Shift+J ()
+            if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+                e.preventDefault();
+                return false;
+            }
+            // Ctrl+U ()
+            if (e.ctrlKey && e.keyCode === 85) {
+                e.preventDefault();
+                return false;
+            }
+            //  Ctrl+S ()
+            if (e.ctrlKey && e.keyCode === 83) {
+                e.preventDefault();
+                return false;
+            }
+            //  Ctrl+C ()
+            if (e.ctrlKey && e.keyCode === 67) {
+                e.preventDefault();
+                return false;
+            }
+        });
     </script>
 </body></html>
